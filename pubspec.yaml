@@ -1,0 +1,32 @@
+name: tdd_clean_arch
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  get_it: ^8.0.2
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+  connectivity: ^3.0.6
+  http: ^1.2.2
+  shared_preferences: ^2.3.2
+  build_runner: 2.4.11
+  internet_connection_checker: ^1.0.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  mockito: ^5.4.4
+
+flutter:
+  uses-material-design: true
